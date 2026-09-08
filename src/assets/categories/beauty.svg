@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+    <defs>
+      <linearGradient id="grad_beauty" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#f43f5e"/>
+        <stop offset="100%" stop-color="#be123c"/>
+      </linearGradient>
+    </defs>
+    <rect width="400" height="300" rx="8" fill="url(#grad_beauty)"/>
+    <circle cx="200" cy="130" r="65" fill="rgba(255,255,255,0.2)"/>
+    <text x="200" y="155" font-size="64" text-anchor="middle">✨</text>
+    <text x="200" y="240" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800" text-anchor="middle">Beauty</text>
+  </svg>

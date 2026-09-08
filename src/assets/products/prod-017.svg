@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg17" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fafc"/></radialGradient>
+    <radialGradient id="sh17" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="rgba(15,23,42,0.3)"/><stop offset="60%" stop-color="rgba(15,23,42,0.08)"/><stop offset="100%" stop-color="rgba(15,23,42,0)"/></radialGradient>
+    <linearGradient id="body17" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#e2e8f0"/><stop offset="30%" stop-color="#f1f5f9"/><stop offset="70%" stop-color="#e2e8f0"/><stop offset="100%" stop-color="#cbd5e1"/></linearGradient>
+    <linearGradient id="glass17" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1e293b"/><stop offset="50%" stop-color="#334155"/><stop offset="100%" stop-color="#0f172a"/></linearGradient>
+    <radialGradient id="drum17" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#38bdf8"/><stop offset="50%" stop-color="#0284c7"/><stop offset="100%" stop-color="#0c4a6e"/></radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg17)"/>
+  <ellipse cx="300" cy="530" rx="160" ry="18" fill="url(#sh17)"/>
+  <!-- Main Cabinet -->
+  <rect x="190" y="110" width="220" height="400" rx="16" fill="url(#body17)" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Top Panel -->
+  <rect x="200" y="125" width="200" height="65" rx="6" fill="#1e293b"/>
+  <circle cx="235" cy="157" r="16" fill="#475569" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Digital Display -->
+  <rect x="270" y="142" width="70" height="30" rx="4" fill="#0284c7"/>
+  <text x="305" y="162" fill="#ffffff" font-family="monospace" font-size="16" font-weight="900" text-anchor="middle">0:45</text>
+  <text x="375" y="150" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="9" font-weight="700">7.0 kg</text>
+  <text x="375" y="165" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="8">Smart Inverter</text>
+  <!-- Big Front Round Door -->
+  <circle cx="300" cy="340" r="105" fill="#475569" stroke="#94a3b8" stroke-width="8"/>
+  <circle cx="300" cy="340" r="92" fill="url(#glass17)"/>
+  <!-- Inner Glass Drum -->
+  <circle cx="300" cy="340" r="70" fill="url(#drum17)" opacity="0.8"/>
+  <!-- Reflection highlight on door -->
+  <path d="M 240 280 C 275 255 330 255 360 280 C 330 270 270 270 240 280 Z" fill="#ffffff" opacity="0.6"/>
+  <!-- Door Handle -->
+  <rect x="385" y="320" width="8" height="40" rx="4" fill="#cbd5e1"/>
+  <!-- Bottom Service Flap -->
+  <rect x="200" y="475" width="200" height="25" rx="2" fill="#cbd5e1"/>
+  <rect x="365" y="480" width="20" height="15" rx="2" fill="#94a3b8"/>
+</svg>

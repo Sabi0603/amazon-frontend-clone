@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg16" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fafc"/></radialGradient>
+    <radialGradient id="sh16" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="rgba(15,23,42,0.3)"/><stop offset="60%" stop-color="rgba(15,23,42,0.08)"/><stop offset="100%" stop-color="rgba(15,23,42,0)"/></radialGradient>
+    <linearGradient id="bag16" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#831843"/><stop offset="30%" stop-color="#9d174d"/><stop offset="70%" stop-color="#be185d"/><stop offset="100%" stop-color="#831843"/></linearGradient>
+    <linearGradient id="wheat16" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#fde68a"/><stop offset="50%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#d97706"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg16)"/>
+  <ellipse cx="300" cy="530" rx="170" ry="22" fill="url(#sh16)"/>
+  <!-- Bag Body -->
+  <path d="M 205 130 C 240 120 360 120 395 130 L 420 485 C 420 512 390 522 300 522 C 210 522 180 512 180 485 Z" fill="url(#bag16)"/>
+  <!-- Bag Handle Cutout -->
+  <path d="M 255 100 Q 300 90 345 100 L 350 125 Q 300 115 250 125 Z" fill="#701a75"/>
+  <ellipse cx="300" cy="112" rx="32" ry="7" fill="#ffffff"/>
+  <!-- Gold Header Badge -->
+  <path d="M 200 155 L 400 155 L 405 200 L 195 200 Z" fill="url(#wheat16)"/>
+  <text x="300" y="184" fill="#831843" font-family="Georgia, serif" font-size="22" font-weight="900" text-anchor="middle" letter-spacing="1">AASHIRVAAD</text>
+  <text x="300" y="196" fill="#831843" font-family="system-ui, sans-serif" font-size="9" font-weight="800" text-anchor="middle" letter-spacing="2">SELECT</text>
+  <!-- Main Title -->
+  <text x="300" y="245" fill="#fde68a" font-family="Georgia, serif" font-size="28" font-weight="900" text-anchor="middle">SHARBATI</text>
+  <text x="300" y="278" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="900" text-anchor="middle" letter-spacing="1">WHOLE WHEAT ATTA</text>
+  <text x="300" y="296" fill="#fbcfe8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">100% MP Sharbati Wheat • Extra Soft Rotis</text>
+  <!-- Wheat Stalks Illustration -->
+  <g transform="translate(300, 375)" fill="url(#wheat16)">
+    <path d="M 0 45 Q 0 -50 0 -60" stroke="#f59e0b" stroke-width="3" fill="none"/>
+    <ellipse cx="-12" cy="-40" rx="8" ry="16" transform="rotate(-30 -12 -40)"/>
+    <ellipse cx="12" cy="-40" rx="8" ry="16" transform="rotate(30 12 -40)"/>
+    <ellipse cx="-14" cy="-15" rx="9" ry="18" transform="rotate(-35 -14 -15)"/>
+    <ellipse cx="14" cy="-15" rx="9" ry="18" transform="rotate(35 14 -15)"/>
+    <ellipse cx="-12" cy="15" rx="8" ry="16" transform="rotate(-30 -12 15)"/>
+    <ellipse cx="12" cy="15" rx="8" ry="16" transform="rotate(30 12 15)"/>
+    <ellipse cx="0" cy="-60" rx="7" ry="15"/>
+  </g>
+  <!-- 5kg Badge -->
+  <rect x="250" y="475" width="100" height="28" rx="14" fill="#ffffff"/>
+  <text x="300" y="494" fill="#831843" font-family="system-ui, sans-serif" font-size="15" font-weight="900" text-anchor="middle">NET 5 kg</text>
+</svg>

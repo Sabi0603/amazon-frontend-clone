@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg13" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fafc"/></radialGradient>
+    <radialGradient id="sh13" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="rgba(15,23,42,0.3)"/><stop offset="60%" stop-color="rgba(15,23,42,0.08)"/><stop offset="100%" stop-color="rgba(15,23,42,0)"/></radialGradient>
+    <linearGradient id="cov13" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffffff"/><stop offset="70%" stop-color="#f8fafc"/><stop offset="100%" stop-color="#e2e8f0"/></linearGradient>
+    <linearGradient id="sp13" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#1e293b"/><stop offset="100%" stop-color="#0f172a"/></linearGradient>
+    <linearGradient id="pg13" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#ffffff"/><stop offset="50%" stop-color="#f1f5f9"/><stop offset="100%" stop-color="#cbd5e1"/></linearGradient>
+    <linearGradient id="gold13" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#b45309"/><stop offset="50%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#d97706"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg13)"/>
+  <ellipse cx="320" cy="520" rx="190" ry="24" fill="url(#sh13)"/>
+  <ellipse cx="300" cy="515" rx="140" ry="12" fill="rgba(15,23,42,0.2)"/>
+  <path d="M 430 115 L 452 135 L 452 468 L 430 450 Z" fill="url(#pg13)"/>
+  <path d="M 452 468 L 225 502 L 202 485 L 430 450 Z" fill="#cbd5e1"/>
+  <path d="M 172 135 L 202 110 L 202 485 L 172 505 Z" fill="url(#sp13)"/>
+  <text x="-310" y="190" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="3" transform="rotate(-90)" opacity="0.9">THE PSYCHOLOGY OF MONEY</text>
+  <path d="M 202 110 L 430 80 L 430 450 L 202 485 Z" fill="url(#cov13)" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="265" cy="165" r="28" fill="url(#gold13)"/>
+  <text x="265" y="162" fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" font-weight="800" text-anchor="middle">OVER</text>
+  <text x="265" y="172" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="900" text-anchor="middle">5 MILLION</text>
+  <text x="265" y="181" fill="#ffffff" font-family="system-ui, sans-serif" font-size="7" font-weight="700" text-anchor="middle">COPIES SOLD</text>
+  <g transform="translate(225, 230) skewY(-8)">
+    <text x="0" y="0" fill="#0f172a" font-family="Georgia, serif" font-size="28" font-weight="900">THE</text>
+    <text x="0" y="32" fill="#0f172a" font-family="Georgia, serif" font-size="28" font-weight="900">PSYCHOLOGY</text>
+    <text x="0" y="62" fill="#0f172a" font-family="Georgia, serif" font-size="24" font-weight="700">OF MONEY</text>
+    <line x1="0" y1="76" x2="160" y2="76" stroke="#d97706" stroke-width="3"/>
+    <text x="0" y="96" fill="#475569" font-family="system-ui, sans-serif" font-size="9" font-weight="600">TIMELESS LESSONS ON WEALTH,</text>
+    <text x="0" y="110" fill="#475569" font-family="system-ui, sans-serif" font-size="9" font-weight="600">GREED, AND HAPPINESS</text>
+    <text x="0" y="155" fill="#0f172a" font-family="system-ui, sans-serif" font-size="15" font-weight="800">MORGAN HOUSEL</text>
+  </g>
+</svg>
